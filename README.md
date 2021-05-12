@@ -6,12 +6,12 @@
 
 You must also own the game Roller Coaster Tycoon 2!
 
-You will need to supply it with your own .sv6 files (World or Scenario files) OR you can choose to point it to one of the ones I hosted with this plugin (In the new Scenario folder, point it directly to the URL in your server params)
+You will need to supply it with your own .sv6 files (World or Scenario files) OR you can choose to point it to one of the ones I hosted with this plugin (In the new Scenario folder, point it directly to the URL in your server params, see step 3 of installation)
 
 ## Installation
 1. Move **RCT2.cs** folder to **plugins** folder
 1. Click **[RELOAD PLUGINS]** button or restart WindowsGSM
-1. Make sure your server parameters are similar to this || host "C:\Users\Bansh\Documents\OpenRCT2\save\autosave\autosave_2019-11-30_23-28-38.sv6" --headless
+1. Make sure your server parameters are similar to this || host https://github.com/Kickbut101/WindowsGSM.RCT2/raw/main/New_Scenarios/CrazyCastle.sv6 --headless
 
 ## Known issues
 The process ID doesn't get handed off to windowsGSM so the server stays in a perpetual state of "Started", also stopping the server doesn't work gracefully
@@ -36,5 +36,5 @@ The process ID doesn't get handed off to windowsGSM so the server stays in a per
 
 
 ### License
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/BattlefieldDuck/WindowsGSM.ARMA3/blob/master/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/Kickbut101/WindowsGSM.RCT2/blob/master/LICENSE) file for details
 
